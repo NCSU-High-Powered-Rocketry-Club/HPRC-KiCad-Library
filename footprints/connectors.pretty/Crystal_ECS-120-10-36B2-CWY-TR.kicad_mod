@@ -1,81 +1,109 @@
-(footprint "Crystal_SMD_2520-4Pin_2.5x2.0mm"
-	(version 20241229)
+(footprint "Crystal_ECS-120-10-36B2-CWY-TR"
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "SMD2520/4, Crystal, 2.5x2.0mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf")
 	(property "Reference" "REF**"
 		(at 0 -2.2 0)
 		(layer "F.SilkS")
-		(uuid "676457c9-16a7-4264-aa3a-eb77ab16e738")
+		(uuid "59226d55-a188-4b27-9893-93820e32ca52")
 		(effects
-			(font (size 1 1) (thickness 0.15))
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(property "Value" "Crystal_SMD_2520-4Pin_2.5x2.0mm"
 		(at 0 2.2 0)
 		(layer "F.Fab")
-		(uuid "d2ddaa17-78db-49ef-8870-ed5116500abc")
+		(uuid "08bae41b-2b88-4016-a622-7042c56f1a9e")
 		(effects
-			(font (size 1 1) (thickness 0.15))
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8ef2cdf7-daf4-4357-8a98-13e92365d48d")
+		(uuid "9bc6f721-1767-413b-b21d-c1cdc3761e74")
 		(effects
-			(font (size 1.27 1.27) (thickness 0.15))
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
 		)
 	)
 	(property "Description" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bf6b0ce4-bf29-4018-95ee-fc1c19a4e33d")
+		(uuid "95121f93-3ba3-4d51-b89a-d7e79989a9c0")
 		(effects
-			(font (size 1.27 1.27) (thickness 0.15))
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.71 -1.46)
 		(end -1.71 1.46)
-		(stroke (width 0.12) (type solid))
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
 		(layer "F.SilkS")
-		(uuid "f7b24150-2577-4da1-b4fa-84456d7c90d3")
+		(uuid "317fcc1b-8c93-4c98-813d-e3c1d88333f0")
 	)
 	(fp_line
 		(start -1.71 1.46)
 		(end 1.71 1.46)
-		(stroke (width 0.12) (type solid))
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
 		(layer "F.SilkS")
-		(uuid "e75015a5-cee8-428b-9c1e-1824b829330b")
+		(uuid "34d94e8f-27d5-4a36-a3c1-1dd35488f3b8")
 	)
 	(fp_rect
 		(start -1.75 -1.5)
 		(end 1.75 1.5)
-		(stroke (width 0.05) (type solid))
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "96c2d2a2-a43f-49a2-acd9-689892726464")
+		(uuid "29e3fd41-4785-484e-9ccf-2b606fcbbb4e")
 	)
 	(fp_poly
 		(pts
 			(xy -1.25 -1) (xy -1.25 0.5) (xy -0.75 1) (xy 1.25 1) (xy 1.25 -1)
 		)
-		(stroke (width 0.1) (type solid))
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "77860207-f48c-4240-9651-2c0fa3b79247")
+		(uuid "16a2348f-a50a-45ae-87b0-d2a8c09afcaf")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "2331007e-58a1-46a1-a558-2fd7a1cc94e5")
+		(uuid "bf10ab0b-c46c-4cb7-b015-3db1e5ccc598")
 		(effects
-			(font (size 0.62 0.62) (thickness 0.09))
+			(font
+				(size 0.62 0.62)
+				(thickness 0.09)
+			)
 		)
 	)
 	(pad "1" smd roundrect
@@ -83,33 +111,39 @@
 		(size 1.2 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "2d67eff6-be28-4e47-ba09-11196a8fac5f")
+		(uuid "e1894bdd-d1b6-4ba9-a147-2cb9940d8b4c")
 	)
 	(pad "2" smd roundrect
 		(at 0.85 0.65)
 		(size 1.2 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "c0a11052-8c6a-4a8f-baf2-e400500c2cbc")
+		(uuid "a65a890b-c58f-48a9-9f48-1f7071b206a1")
 	)
 	(pad "3" smd roundrect
 		(at 0.85 -0.65)
 		(size 1.2 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "e4c6db98-3a95-4513-9689-9855a85516ac")
+		(uuid "6d40f2bf-b911-485f-9c8d-6cc3738b1938")
 	)
 	(pad "4" smd roundrect
 		(at -0.85 -0.65)
 		(size 1.2 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "82c84a4b-4f61-4841-9b65-2b74b38567da")
+		(uuid "6271d630-c6c9-4ea2-806f-4a39e59f23f8")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2520-4Pin_2.5x2.0mm.step"
-		(offset (xyz 0 0 0))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

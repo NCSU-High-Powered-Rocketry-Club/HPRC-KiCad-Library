@@ -1,6 +1,6 @@
 (fp_lib_table
   (version 7)
-  (lib (name "connectors")(type "KiCad")(uri "${KICAD_HPRC_LIB}/footprints/connectors.pretty")(options "")(descr ""))
-  (lib (name "sensors")(type "KiCad")(uri "${KICAD_HPRC_LIB}/footprints/sensors.pretty")(options "")(descr ""))
-  (lib (name "storage")(type "KiCad")(uri "${KICAD_HPRC_LIB}/footprints/storage.pretty")(options "")(descr ""))
+  (lib (name "HPRC_Connectors")(type "KiCad")(uri "${KICAD_HPRC_LIB}/footprints/connectors.pretty")(options "")(descr ""))
+  (lib (name "HPRC_Sensors")(type "KiCad")(uri "${KICAD_HPRC_LIB}/footprints/sensors.pretty")(options "")(descr ""))
+  (lib (name "HPRC_Storage")(type "KiCad")(uri "${KICAD_HPRC_LIB}/footprints/storage.pretty")(options "")(descr ""))
 )
