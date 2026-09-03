@@ -2,5 +2,5 @@
   (version 7)
   (lib (name "connectors")(type "KiCad")(uri "${KICAD_HPRC_LIB}/footprints/connectors.pretty")(options "")(descr ""))
   (lib (name "sensors")(type "KiCad")(uri "${KICAD_HPRC_LIB}/footprints/sensors.pretty")(options "")(descr ""))
-  (lib (name "IC_W25N04KVZEIR")(type "KiCad")(uri "${KICAD_HPRC_LIB}/footprints/IC_W25N04KVZEIR")(options "")(descr ""))
+  (lib (name "storage")(type "KiCad")(uri "${KICAD_HPRC_LIB}/footprints/storage.pretty")(options "")(descr ""))
 )
