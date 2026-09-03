@@ -19,7 +19,7 @@ The KiCad right-click context menu should be sufficient to manage libraries. Mak
 
 ### Symbols
 
-Use the the symbol editor and right-click on library folders to add new components
+Use the symbol editor and right-click on library folders to add new components
 
 ### Footprints
 
