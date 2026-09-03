@@ -13,8 +13,14 @@ Library to use in NCSU HRPC projects like FIRM and Airbrakes
 5. Click **Preferences --> Manage Footprint Libraries**
 6. Click **"+"**, set "Nickname" to "HPRC", set "Library Path" to **${KICAD_HPRC_LIB}/fp-lib-table**, click "Ok"
 
-# Adding Library Folders
+# Adding Library Folders and Components
 
-1. Add the footprint folder or symbol in "footprints" or "symbols"
-2. Open the corresponding "fp-" or "sym-" file
-3. Copy and paste the last entry in the file and change the name and path accordingly
+The KiCad right-click context menu should be sufficient to manage libraries. Make sure library folders are prefixed by **"HPRC_"** 
+
+### Symbols
+
+Use the the symbol editor and right-click on library folders to add new components
+
+### Footprints
+
+Use the footprint editor and right-click on library folders to add new components. If adding a 3D model, make sure to check the **"Embed"** option.
