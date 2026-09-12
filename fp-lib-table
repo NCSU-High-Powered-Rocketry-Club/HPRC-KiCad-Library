@@ -4,4 +4,5 @@
   (lib (name "HPRC_Sensors")(type "KiCad")(uri "${KICAD_HPRC_LIB}/footprints/sensors.pretty")(options "")(descr ""))
   (lib (name "HPRC_Storage")(type "KiCad")(uri "${KICAD_HPRC_LIB}/footprints/storage.pretty")(options "")(descr ""))
   (lib (name "HPRC_Logic")(type "KiCad")(uri "${KICAD_HPRC_LIB}/footprints/logic.pretty")(options "")(descr ""))
+  (lib (name "HPRC_Graphics")(type "KiCad")(uri "${KICAD_HPRC_LIB}/footprints/graphics.pretty")(options "")(descr ""))
 )

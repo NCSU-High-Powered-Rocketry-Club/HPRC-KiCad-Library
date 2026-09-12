@@ -883,7 +883,7 @@
 		(symbol "WAGO_2pos_3.5mm_Horizontal_1_1"
 			(polyline
 				(pts
-					(xy 5.08 2.54) (xy 5.08 -7.62)
+					(xy 5.08 2.54) (xy 5.08 -10.16)
 				)
 				(stroke
 					(width 0.127)
@@ -895,7 +895,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -7.62) (xy 12.7 -7.62)
+					(xy 5.08 -10.16) (xy 12.7 -10.16)
 				)
 				(stroke
 					(width 0.127)
@@ -919,7 +919,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 -7.62) (xy 12.7 2.54)
+					(xy 12.7 -10.16) (xy 12.7 2.54)
 				)
 				(stroke
 					(width 0.127)
