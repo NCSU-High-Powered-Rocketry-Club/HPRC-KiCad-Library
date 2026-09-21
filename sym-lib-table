@@ -7,4 +7,5 @@
   (lib (name "W25N04KVZEIR")(type "KiCad")(uri "${KICAD_HPRC_LIB}/symbols/W25N04KVZEIR.kicad_sym")(options "")(descr ""))
   (lib (name "BHSD-2032-PC")(type "KiCad")(uri "${KICAD_HPRC_LIB}/symbols/BHSD-2032-PC.kicad_sym")(options "")(descr ""))
   (lib (name "MX25R3235FM1IL0")(type "KiCad")(uri "${KICAD_HPRC_LIB}/symbols/MX25R3235FM1IL0.kicad_sym")(options "")(descr ""))
+  (lib (name "HPRC_Storage")(type "KiCad")(uri "${KICAD_HPRC_LIB}/symbols/storage.kicad_sym")(options "")(descr ""))
 )
