@@ -1,0 +1,181 @@
+(footprint "AKEYSRC 3.3V Buck Converter"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 8.7 -8.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "523fbe6f-f5b7-4877-b750-e25696299821")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3.3V Buck Converter"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2c2918d6-432e-4a43-9e6d-1da7763745c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.amazon.com/AKEYSRC-Converter-5-30V-Fixed-Output/dp/B0H4R478CZ?crid=3KVBIP2R045NQ&dib=eyJ2IjoiMSJ9.gaF28blrXPz1umvbowpJcy4rGm-7aFd67kDdLSK5CHvaU77_jrD5kx6CuKot_Pe3KWobdGmTWeiMnP-UQd4KlVrtp8sPNDxlIH3eCkYlVbhfxAAdA1EbTDLMj84K2OUmqN-2Om3p2ajyYwrj3_13miaPosrBemhPSi0F4gOlSkbjZ-cvU0EKv6cd2GwRbArLkBdPMQQ3P255Sp7dhKHXpj_uPDNapz2iXh6nVq7lDtA.0Cv-K4CeMIMv_BJYkMjuJhRmnx5XiSv0RPmG6_dvFog&dib_tag=se&keywords=5v%2Bto%2B3.3v%2B3a&qid=1791233959&sprefix=%2Caps%2C161&sr=8-4&th=1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3ca85aa-f73a-44e3-8ce0-e119ed01c4d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "732b44fb-8cc5-4d20-bf4a-5650ed872161")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.25 -8.9)
+		(end -6.25 8.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bd15b1f6-37dc-4b22-bd50-554fa4cfbdc5")
+	)
+	(fp_line
+		(start -6.25 -8.9)
+		(end -5.5 -8.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "37c5c4fb-a3fa-4ee8-a2e5-8026931a5920")
+	)
+	(fp_line
+		(start -6.25 8.9)
+		(end -5.5 8.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "858e8064-e12b-4fef-be0b-579a446d908c")
+	)
+	(fp_line
+		(start 6.25 -8.9)
+		(end 5.5 -8.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fa71ab21-de59-40ba-b77b-ff749122d733")
+	)
+	(fp_line
+		(start 6.25 8.9)
+		(end 5.5 8.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "94136cad-62bb-4d43-9753-c590122563a7")
+	)
+	(fp_line
+		(start 6.25 8.9)
+		(end 6.25 -8.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "30e7ac4d-b15b-4ec4-b661-2e7e1f7c7d33")
+	)
+	(fp_rect
+		(start -6.5 -11.25)
+		(end 6.5 11.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "dfdf35a6-f924-4971-9e9e-2de20e76e106")
+	)
+	(fp_rect
+		(start -6.15 -8.8)
+		(end 6.15 8.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "aa661118-02f8-4f4d-8c64-81e118bf65f2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4f7a440f-1211-4c43-ae91-0f80dfb6062f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4 -8.5)
+		(size 2.54 5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "e7f8bffe-5857-403e-9176-99086f42b54e")
+	)
+	(pad "2" smd roundrect
+		(at -4 8.5)
+		(size 2.54 5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "d5589df4-2202-4fac-a3e4-7834a93701ed")
+	)
+	(pad "3" smd roundrect
+		(at 4 8.5)
+		(size 2.54 5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "6235046c-e959-4293-ad34-8d72bb5cfa06")
+	)
+	(pad "4" smd roundrect
+		(at 4 -8.5)
+		(size 2.54 5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "f8f4694c-ee6f-4b05-91df-11d59548d6cd")
+	)
+	(embedded_fonts no)
+)
