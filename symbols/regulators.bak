@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "regulators:MIC5219-3.3YM5"
+		(property "Footprint" "HPRC_regulators:MIC5216-3.3M5"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -73,7 +73,7 @@
 					(type background)
 				)
 			)
-			(text "MIC5219-3.3YM5"
+			(text "MIC5216-3.3YM5"
 				(at 0 11.176 0)
 				(effects
 					(font
