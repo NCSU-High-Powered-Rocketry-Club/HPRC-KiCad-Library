@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "regulators:MIC5219-3.3YM5"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
