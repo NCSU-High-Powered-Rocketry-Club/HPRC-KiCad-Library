@@ -1496,7 +1496,7 @@
 			)
 		)
 		(property "Footprint" "HPRC_Sensors:XDCR_SCH16T-K01-10"
-			(at 0 0 0)
+			(at 0.254 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1507,8 +1507,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.murata.com/-/media/webrenewal/products/sensor/pdf/datasheet/datasheet-sch16t-k01-short.ashx?la=en-us&cvid=20241226073945000000"
+			(at 0 24.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1519,7 +1519,7 @@
 			)
 		)
 		(property "Description" "6DoF combined 3-axis gyro + 3-axis accelerometer, SafeSPI v2.0, SOIC 24-pin"
-			(at 0 0 0)
+			(at 0 24.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1531,7 +1531,7 @@
 			)
 		)
 		(property "MF" "Murata Electronics"
-			(at 0 0 0)
+			(at 0 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1543,7 +1543,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.00mm"
-			(at 0 0 0)
+			(at 0 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1555,7 +1555,7 @@
 			)
 		)
 		(property "CREATOR" "NEZY"
-			(at 0 0 0)
+			(at -0.254 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1579,7 +1579,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 24.384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1591,7 +1591,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SCH16T-K01-10/Murata/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 24.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1603,7 +1603,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
+			(at 0 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1615,7 +1615,7 @@
 			)
 		)
 		(property "PARTREV" "6"
-			(at 0 0 0)
+			(at 0 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1639,7 +1639,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SCH16T-K01-10/Murata/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 24.384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1651,7 +1651,7 @@
 			)
 		)
 		(property "MP" "SCH16T-K01-10"
-			(at 0 0 0)
+			(at 0 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1663,7 +1663,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 0 0 0)
+			(at 0 24.384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1675,7 +1675,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at -0.254 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1687,7 +1687,7 @@
 			)
 		)
 		(property "UNIT" "mm"
-			(at 0 0 0)
+			(at -0.254 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1699,7 +1699,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 0 0 0)
+			(at -0.254 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1710,10 +1710,10 @@
 				(justify bottom)
 			)
 		)
-		(symbol "SCH16T-K01-10_0_0"
+		(symbol "SCH16T-K01-10_0_1"
 			(rectangle
-				(start -15.24 -22.86)
-				(end 15.24 20.32)
+				(start -15.24 20.32)
+				(end 15.24 -22.86)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1722,6 +1722,8 @@
 					(type background)
 				)
 			)
+		)
+		(symbol "SCH16T-K01-10_1_1"
 			(pin power_in line
 				(at 20.32 -17.78 180)
 				(length 5.08)
@@ -1733,24 +1735,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -7.62 0)
-				(length 5.08)
-				(name "RESERVED"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1797,7 +1781,6 @@
 			(pin passive line
 				(at -20.32 -7.62 0)
 				(length 5.08)
-				(hide yes)
 				(name "RESERVED"
 					(effects
 						(font
@@ -2154,6 +2137,24 @@
 					)
 				)
 				(number "24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -20.32 -12.7 0)
+				(length 5.08)
+				(name "N.C"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
