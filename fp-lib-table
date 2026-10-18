@@ -7,4 +7,5 @@
   (lib (name "HPRC_Graphics")(type "KiCad")(uri "${KICAD_HPRC_LIB}/footprints/graphics.pretty")(options "")(descr ""))
   (lib (name "HPRC_Modules")(type "KiCad")(uri "${KICAD_HPRC_LIB}/footprints/modules.pretty")(options "")(descr ""))
   (lib (name "HPRC_Transistors")(type "KiCad")(uri "${KICAD_HPRC_LIB}/footprints/transistors.pretty")(options "")(descr ""))
+  (lib (name "HPRC_Regulators")(type "KiCad")(uri "${KICAD_HPRC_LIB}/footprints/regulators.pretty")(options "")(descr ""))
 )
