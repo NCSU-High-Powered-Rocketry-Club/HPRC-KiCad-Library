@@ -9,4 +9,5 @@
   (lib (name "MX25R3235FM1IL0")(type "KiCad")(uri "${KICAD_HPRC_LIB}/symbols/MX25R3235FM1IL0.kicad_sym")(options "")(descr ""))
   (lib (name "HPRC_Storage")(type "KiCad")(uri "${KICAD_HPRC_LIB}/symbols/storage.kicad_sym")(options "")(descr ""))
   (lib (name "HPRC_Modules")(type "KiCad")(uri "${KICAD_HPRC_LIB}/symbols/modules.kicad_sym")(options "")(descr ""))
+  (lib (name "HPRC_Transistors")(type "KiCad")(uri "${KICAD_HPRC_LIB}/symbols/transistors.kicad_sym")(options "")(descr ""))
 )
