@@ -208,9 +208,9 @@
 				)
 			)
 			(pin output line
-				(at 13.97 -10.16 180)
+				(at 13.97 -6.35 180)
 				(length 2.54)
-				(name "INT2"
+				(name "INT1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -226,9 +226,9 @@
 				)
 			)
 			(pin output line
-				(at 13.97 -6.35 180)
+				(at 13.97 -10.16 180)
 				(length 2.54)
-				(name "INT1"
+				(name "INT2"
 					(effects
 						(font
 							(size 1.27 1.27)
