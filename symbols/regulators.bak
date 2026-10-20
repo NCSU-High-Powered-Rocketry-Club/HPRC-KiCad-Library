@@ -205,11 +205,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TPS2121RUXR:IC_TPS2121RUXR"
+		(property "Footprint" "HPRC_Regulators:IC_TPS2121RUXR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
